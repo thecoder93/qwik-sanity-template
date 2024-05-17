@@ -25,7 +25,7 @@ export const head: DocumentHead = {
 	meta: [
 		{
 			name: 'description',
-			content: 'Qwik Sanity template'
+			content: 'Qwik Sanity sample'
 		}
 	]
 };
