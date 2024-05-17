@@ -45,6 +45,7 @@
     "vite-tsconfig-paths": "^4.2.1"
   },
   "dependencies": {
-    "@sanity/client": "^6.18.2"
+    "@sanity/client": "^6.18.2",
+    "husky": "^9.0.11"
   }
 }
