@@ -1,25 +1,34 @@
-import { component$ } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
+import {  component$, useTask$ } from "@builder.io/qwik";
+import { routeLoader$, type DocumentHead } from "@builder.io/qwik-city";
+import { getPages } from "~/lib/sanityApi";
+
+
+export const usePageLoader = routeLoader$(async () => {
+  return await getPages();
+});
 
 export default component$(() => {
+
+  const t = usePageLoader()
+
+  useTask$(async ({ track }) => {
+		track(() => console.log('BLA BBLA BLA', JSON.stringify(t.value)));
+    
+  })
+  
   return (
     <>
-      <h1>Hi 👋</h1>
-      <div>
-        Can't wait to see what you build with qwik!
-        <br />
-        Happy coding.
-      </div>
+
     </>
   );
 });
 
 export const head: DocumentHead = {
-  title: "Welcome to Qwik",
+  title: "Welcome to Qwik - Sanity",
   meta: [
     {
       name: "description",
-      content: "Qwik site description",
+      content: "Qwik Sanity template",
     },
   ],
 };
