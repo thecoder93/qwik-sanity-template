@@ -8,6 +8,9 @@ dependencies:
   '@sanity/client':
     specifier: ^6.18.2
     version: 6.18.2
+  '@sanity/image-url':
+    specifier: ^1.0.2
+    version: 1.0.2
   husky:
     specifier: ^9.0.11
     version: 9.0.11
@@ -834,6 +837,11 @@ packages:
       '@types/eventsource': 1.1.15
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
+    dev: false
+
+  /@sanity/image-url@1.0.2:
+    resolution: {integrity: sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==}
+    engines: {node: '>=10.0.0'}
     dev: false
 
   /@trysound/sax@0.2.0:
