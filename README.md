@@ -1,10 +1,40 @@
+# Sanity + Qwik frontend example = 🩷
+
+This is an example [Sanity](https://www.sanity.io/) powered frontend for an hero page using [Qwik](https://qwik.dev/).
+
+![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDJraTh0bGxlNDIxYWJkMXB5amRzdGwweXJrbnRrOXE2OTRkYnZtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Z3tOBIqimgvKr6mn3a/giphy.gif)
+
+## Setup
+
+```
+pnpm install
+```
+
+If you're running your own Sanity project with the example movie dataset, go to `lib/sanity.js` and change the following lines:
+
+```
+  projectId: 'YOUR_PROJECT_ID',
+  dataset: 'NAME_OF_YOUR_DATASET',
+  apiVersion: 'VERSION_API_OF_SANITY'
+```
+
+You can locate the ID of your project in the header of the [management page for your project](https://manage.sanity.io/).
+
+Then start the example app with:
+
+```
+npm run dev
+```
+
+The app should now be up and running at http://localhost:5173/ 🚀
+
 # Qwik City App ⚡️
 
-- [Qwik Docs](https://qwik.dev/)
-- [Discord](https://qwik.dev/chat)
-- [Qwik GitHub](https://github.com/QwikDev/qwik)
-- [@QwikDev](https://twitter.com/QwikDev)
-- [Vite](https://vitejs.dev/)
+-   [Qwik Docs](https://qwik.dev/)
+-   [Discord](https://qwik.dev/chat)
+-   [Qwik GitHub](https://github.com/QwikDev/qwik)
+-   [@QwikDev](https://twitter.com/QwikDev)
+-   [Vite](https://vitejs.dev/)
 
 ---
 
@@ -24,11 +54,11 @@ Inside your project, you'll see the following directory structure:
         └── ...
 ```
 
-- `src/routes`: Provides the directory-based routing, which can include a hierarchy of `layout.tsx` layout files, and an `index.tsx` file as the page. Additionally, `index.ts` files are endpoints. Please see the [routing docs](https://qwik.dev/qwikcity/routing/overview/) for more info.
+-   `src/routes`: Provides the directory-based routing, which can include a hierarchy of `layout.tsx` layout files, and an `index.tsx` file as the page. Additionally, `index.ts` files are endpoints. Please see the [routing docs](https://qwik.dev/qwikcity/routing/overview/) for more info.
 
-- `src/components`: Recommended directory for components.
+-   `src/components`: Recommended directory for components.
 
-- `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
+-   `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
 
 ## Add Integrations and deployment
 
