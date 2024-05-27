@@ -1,4 +1,4 @@
-# Sanity + Qwik frontend example = 🩷
+# Qwik + Sanity frontend example = 🩷
 
 
 ![alt text](https://imgur.com/pyg8cAL.jpg/)
