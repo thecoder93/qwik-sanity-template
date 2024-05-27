@@ -23,7 +23,7 @@ You can locate the ID of your project in the header of the [management page for 
 Then start the example app with:
 
 ```
-npm run dev
+pnpm run dev
 ```
 
 The app should now be up and running at http://localhost:5173/ 🚀
