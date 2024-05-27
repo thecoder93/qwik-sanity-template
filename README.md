@@ -14,7 +14,7 @@ This is an example [Sanity](https://www.sanity.io/) powered frontend for an hero
 pnpm install
 ```
 
-If you're running your own Sanity project with the example movie dataset, go to `lib/sanity.js` and change the following lines:
+If you're running your own Sanity project, go to `sanity/config/sanity.client.ts` and change the following lines:
 
 ```
   projectId: 'YOUR_PROJECT_ID',
