@@ -1,5 +1,9 @@
 # Sanity + Qwik frontend example = 🩷
 
+
+![alt text](https://imgur.com/pyg8cAL.jpg/)
+
+
 This is an example [Sanity](https://www.sanity.io/) powered frontend for an hero page using [Qwik](https://qwik.dev/).
 
 ![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDJraTh0bGxlNDIxYWJkMXB5amRzdGwweXJrbnRrOXE2OTRkYnZtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Z3tOBIqimgvKr6mn3a/giphy.gif)
